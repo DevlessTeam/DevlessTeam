@@ -1,2 +1,0 @@
-# DevlessTeam
-Home for DevLess
