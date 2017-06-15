@@ -5,7 +5,7 @@
 	font-size: 50px;
 }
 .layer-content-big {
-	padding-top: 200px;
+	padding-top: calc(50vh - 180px);
 }
 .b-home-features .b-features-column .features-column-text{
 	margin-bottom: 35px;
