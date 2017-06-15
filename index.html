@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/custom.css"/>
 </head>
 <body>
-    <div class="b-page-wrap dv-home" id="homePage">
+    <div class="b-page-wrap dvhome" id="homePage">
         <!-- <div id="particles-js"></div> -->
 
         <!-- Loader-->
@@ -27,24 +27,31 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
-                        <form id="contact-form" class="b-form" method="get" action="#">
+
+                        <form id="contact-form" class="b-form dv-add-oneto:ProjectSignup:dv_project">
                             <h1>Start Your Project</h1>
+                            <div class="dv-notify-success">
+                                <p class="contact_success_box text-center">Thank You for reaching out to DevLess. We will get in touch soon.</p>
+                            </div>
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-xs-12 col-md-6">
-                                        <input type="text" pattern=".{3,}" class="form-control" id="user-name" placeholder="Your Name *">
+                                        <input type="text" class="form-control" name="user_name" placeholder="Your Name *" required="true">
                                     </div>
                                     <div class="col-xs-12 col-md-6">
-                                        <input type="email" pattern=".{3,}" class="form-control" id="user-email" placeholder="Your Email *" autocomplete="off">
+                                        <input type="email" class="form-control" name="user_email" placeholder="Your Email *" autocomplete="off" required="true">
+                                    </div>
+                                    <div class="col-xs-12 col-md-12">
+                                        <input type="text" class="form-control" name="user_company" placeholder="Company Name" autocomplete="off">
                                     </div>
                                     <div class="col-xs-12 col-md-6">
-                                        <input type="text" pattern=".{3,}" class="form-control" id="user-company" placeholder="Company Name *" autocomplete="off">
+                                        <input type="text" class="form-control" name="user_phone" placeholder="Phone Number" autocomplete="off">
                                     </div>
                                     <div class="col-xs-12 col-md-6">
-                                        <input type="text" pattern=".{3,}" class="form-control" id="user-title" placeholder="Job Title" autocomplete="off">
+                                        <input type="text" class="form-control" name="user_title" placeholder="Job Title" autocomplete="off">
                                     </div>
                                     <div class="col-xs-12 col-sm-12">
-                                        <textarea id="user-message" class="form-control" rows="6" placeholder="Technical Needs"></textarea>
+                                        <textarea name="user_message" class="form-control" rows="6" placeholder="Technical Needs"></textarea>
                                     </div>
                                     <div class="col-xs-12 col-sm-12">
                                         <button type="submit" class="btn btn-submit text-uppercase">
@@ -75,7 +82,7 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-xs-12 col-sm-4">
                         <div class="b-logo">
                             <a href="#">
                                 <img src="https://devless.io/images/dv_logo_rev.png" alt="/">
@@ -85,7 +92,7 @@
                         <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>
                         <!-- Mobile Trigger End-->
                     </div>
-                    <div class="hidden-xs col-sm-12 col-md-8 col-lg-8">
+                    <div class="hidden-xs col-sm-8">
                         <div class="header-navibox-2">
                             <nav id="nav" class="navbar pull-right">
                                 <ul class="yamm main-menu nav navbar-nav hidden-xs">
@@ -163,7 +170,7 @@
             <div class="b-homepage-content-mod">
                 <div class="b-layer-main">
                     <!-- Home Features -->
-                    <div class="b-home-features">
+                    <div class="hidden-xs b-home-features">
                         <div class="b-features-columns-holder">
                             <div class="container">
                                 <div class="col-lg-offset-2 col-md-offset-1 col-md-10 col-lg-8">
@@ -171,42 +178,42 @@
                                         <div class="col-xs-12 col-sm-4 col-md-4 wow slideInRight">
                                             <div class="b-features-column">
                                                 <div class="features-column-icon">
-                                                    <i class="flaticon-social"></i>
+                                                    <i class="flaticon-softtware-engineer"></i>
                                                 </div>
                                                 <h6 class="features-column-title">
-                                                    Mobile Designers
+                                                    Individual
                                                 </h6>
                                                 <div class="features-column-text">
-                                                    Experts in Android, iOS and Hybrid apps
+                                                    I have a brilliant idea and need a development team to help transform this idea into a solution.
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp">
                                             <div class="b-features-column even-features-column">
                                                 <div class="features-column-icon">
-                                                    <i class="flaticon-arrow"></i>
+                                                    <i class="flaticon-technology"></i>
                                                 </div>
                                                 <h6 class="features-column-title">
-                                                    Web Developers
+                                                    Small Business
                                                 </h6>
                                                 <div class="features-column-text">
-                                                    A blend of Frontend and Backend Developers 
+                                                    I need a custom application built for my company. I want to improve my business operations.
                                                 </div>
                                             </div>
-                                            <!-- <div class="page-arrow hidden-xs">
-                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                            </div> -->
+                                            <div class="page-arrow hidden-xs">
+                                                <a href="#" class="btn_header_search"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                            </div>
                                         </div>
                                         <div class="col-xs-12 col-sm-4 col-md-4 wow slideInLeft">
                                             <div class="b-features-column">
                                                 <div class="features-column-icon">
-                                                    <i class="flaticon-user"></i>
+                                                    <i class="flaticon-arrow"></i>
                                                 </div>
                                                 <h6 class="features-column-title">
-                                                    UI / UX Designers
+                                                    Enterprise
                                                 </h6>
                                                 <div class="features-column-text">
-                                                    Design Thinking Experts, Creative Designers
+                                                    I have a huge project and I need a tried and tested team. Efficiency is very important to me.
                                                 </div>
                                             </div>
                                         </div>
@@ -473,6 +480,12 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="text-center">
+                                        <a href="#" class="btn_header_search btn btn-primary btn-ask">
+                                            <i class="fa fa-commenting" aria-hidden="true"></i>
+                                            Start your project
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -538,6 +551,7 @@
     <script src="assets/plugins/pickmeup/pickmeup.js"></script>
     <!-- User customization-->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://dventerprise.herokuapp.com/js/devless-sdk.js" class="devless-connection" devless-con-token="b0519f24abdd90d6cfd244f5e58bef5c"></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/SmoothScroll.js"></script>
     <script>

@@ -3630,9 +3630,6 @@ footer .b-socials {
   font-size: 90px;
   margin: 35px 0 0;
 }
-.b-home-features .b-features-column .features-column-icon i:before, .b-home-features .b-features-column-mod .features-column-icon i:before {
-  -webkit-text-fill-color: inherit;
-}
 .b-home-features .b-features-column .features-column-title, .b-home-features .b-features-column-mod .features-column-title {
   margin: 0 0 8px;
 }
