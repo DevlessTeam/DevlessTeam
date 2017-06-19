@@ -1,0 +1,322 @@
+/*!
+ * Bootstrap Docs (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under the Creative Commons Attribution 3.0 Unported License. For
+ * details, see https://creativecommons.org/licenses/by/3.0/.
+ */
+
+
+/*
+ * Bootstrap Documentation
+ * Special styles for presenting Bootstrap's documentation and code examples.
+ */
+
+
+/*
+ * Scaffolding
+ *
+ * Update the basics of our documents to prep for docs content.
+ */
+
+body {
+  position: relative; /* For scrollspy */
+}
+
+/* Keep code small in tables on account of limited space */
+
+/* Inline code within headings retain the heading's background-color */
+
+/* Outline button for use within the docs */
+
+/* Inverted outline button (white on dark) */
+
+/* Bootstrap "B" icon */
+
+
+/*
+ * Fancy skip link
+ *
+ * Make it look a bit less "bare bones"
+ * Also includes focus suppression for the Chrome tabindex="-1" workaround
+ */
+
+
+/*
+ * Main navigation
+ *
+ * Turn the `.navbar` at the top of the docs purple.
+ */
+
+
+/*
+ * Footer
+ *
+ * Separated section of content at the bottom of all pages, save the homepage.
+ */
+
+
+/*
+ * Social buttons
+ *
+ * Twitter and GitHub social action buttons (for homepage and footer).
+ */
+/* Style the GitHub buttons via CSS instead of inline attributes */
+
+
+/*
+ * Homepage
+ *
+ * Tweaks to the custom homepage and the masthead (main jumbotron).
+ */
+
+/* Share masthead with page headers */
+
+/* Masthead (headings and download button) */
+
+
+/*
+ * Page headers
+ *
+ * Jumbotron-esque headers at the top of every page that's not the homepage.
+ */
+
+/* Page headers */
+
+
+/*
+ * Carbon ads
+ *
+ * Single display ad that shows on all pages (except homepage) in page headers.
+ * The hella `!important` is required for any pre-set property.
+ */
+
+
+/*
+ * Homepage featurettes
+ *
+ * Reasons to use Bootstrap, entries from the Expo, and more.
+ */
+
+
+/*
+ * Featured sites
+ *
+ * Homepage thumbnails from the Expo.
+ */
+
+
+/*
+ * Examples
+ *
+ * Linked docs examples.
+ */
+
+
+/*
+ * Side navigation
+ *
+ * Scrollspy and affixed enhanced navigation to highlight sections and secondary
+ * sections of docs content.
+ */
+
+/* By default it's not affixed in mobile views, so undo that */
+
+/* First level of nav */
+
+/* All levels of nav */
+
+/* Nav: second level (shown on .active) */
+
+/* Back to top (hidden on mobile) */
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+  /* Widen the fixed sidebar */
+}
+@media (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+}
+
+
+/*
+ * Docs sections
+ *
+ * Content blocks for each component or feature.
+ */
+
+/* Space things out */
+
+
+/*
+ * Callouts
+ *
+ * Not quite alerts, but custom and helpful notes for folks reading the docs.
+ * Requires a base and modifier class.
+ */
+
+/* Common styles for all types */
+
+/* Tighten up space between multiple callouts */
+
+/* Variations */
+
+
+/*
+ * Color swatches
+ *
+ * Color swatches and associated values for our grayscale and brand colors.
+ */
+
+/* Framework colors */
+
+/* Docs colors */
+
+
+/*
+ * Team members
+ *
+ * Avatars, names, and usernames for core team.
+ */
+
+
+/*
+ * Wall of Browser Bugs
+ *
+ * Better display for the responsive table on the Wall of Browser Bugs.
+ */
+
+
+/*
+ * Grid examples
+ *
+ * Highlight the grid columns within the docs so folks can see their padding,
+ * alignment, sizing, etc.
+ */
+
+
+/*
+ * Examples
+ *
+ * Isolated sections of example content for each component or feature. Usually
+ * followed by a code snippet.
+ */
+/* Echo out a label for the example */
+
+/* Tweak display of the code snippets when following an example */
+
+/* Make the examples and snippets not full-width */
+
+/* Undo width of container */
+
+/* Tweak content of examples for optimum awesome */
+
+/* Typography */
+
+/* Contextual background colors */
+
+/* Images */
+
+/* Tables */
+
+/* Buttons */
+
+/* Forms */
+
+/* List groups */
+
+/* Navbars */
+
+/* Pagination */
+
+/* Pager */
+
+/* Example modals */
+
+/* Example dropdowns */
+
+/* Example tabbable tabs */
+
+/* Tooltips */
+
+/* Popovers */
+
+/* Scrollspy demo on fixed height div */
+
+/* Simple collapse example */
+
+/* Don't wrap event names in Events tables in JS plugin docs */
+
+/*
+ * Code snippets
+ *
+ * Generated via Pygments and Jekyll, these are snippets of HTML, CSS, and JS.
+ */
+
+
+/*
+ * Responsive tests
+ *
+ * Generate a set of tests to show the responsive utilities in action.
+ */
+
+/* Responsive (scrollable) doc tables */
+
+/* Utility classes table  */
+
+/* Responsive tests */
+
+
+/*
+ * Glyphicons
+ *
+ * Special styles for displaying the icons and their classes in the docs.
+ */
+
+
+/*
+ * Customizer
+ *
+ * Since this is so form control heavy, we have quite a few styles to customize
+ * the display of inputs, headings, and more. Also included are all the download
+ * buttons and actions.
+ */
+
+/* Headings and form contrls */
+
+/* For the variables, use regular weight */
+
+/* Downloads */
+
+/* Error handling */
+/*.bs-dropzone*/
+
+/*
+ * Brand guidelines
+ *
+ * Extra styles for displaying wordmarks, logos, etc.
+ */
+
+/* Logo series wrapper */
+
+/* Individual items */
+
+/* Heading content within */
+
+/* Make the icons stand out on what is/isn't okay */
+
+
+/*
+ * ZeroClipboard styles
+ */
+
+/*
+ * AnchorJS Styles
+ */
+
+/*
+ * Miscellaneous
+ *
+ * Odds and ends for optimum docs display.
+ */
+
+/* Pseudo :focus state for showing how it looks in the docs */

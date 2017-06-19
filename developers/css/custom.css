@@ -1,0 +1,118 @@
+.homeBtn {
+    margin-top: 20px;
+}
+.homeArea {
+    background: url("../img/bg.png") repeat;
+}
+@media only screen and (max-width: 6000px) and (min-width: 992px){
+	header nav#navbar > ul {
+	     border-right: none; 
+	}
+}
+.footerLogo img {
+	height: 37px;
+    margin-top: -15px;
+}
+.footerTxt {
+    margin-bottom: 0;
+}
+.homeContent span.h2 {
+    font-size: 30px;
+}
+.stepContent {
+    height: auto;
+}
+.heroBtn img {
+    height: 70px;
+}
+.homeArea {
+    background: url('../img/my_bg.jpg') #ffffff;
+    border-bottom: 1px solid #eaeaea;
+    background-size: 200px auto;
+    background-position: 25px 25px;
+}
+.iconBg {
+    /*background: url('../img/my_bg2.jpg') #ffffff;*/
+}
+.homeContent span.h2 {
+    color: #233141;
+}
+.homeContent p {
+    color: #738191;
+}
+.singleService {
+    margin-top: 0;
+}
+header .headerBottomArea {
+    padding: 20px;
+}
+#navbar li {
+    padding: 20px 10px;
+}
+header .logo {
+    margin-top: 20px;
+}
+#navbar .current-menu-item {
+    background: #ed8100;
+}
+header nav#navbar ul > li.current-menu-item > a{
+    color: #fff;
+}
+
+
+
+.circle {
+    border: 1px solid;
+    border-radius: 50%;
+    float: left;
+    height: 12px;
+    margin-right: 5px;
+    width: 12px;
+    margin-bottom: 10px;
+}
+.circle-red {
+    background: #f5716b;
+    border-color: #cd4739;
+}
+.circle-yellow {
+    background: #fae501;
+    border-color: #d1c003;
+}
+.circle-green {
+    background: #16d595;
+    border-color: #05a972;
+}
+.browser-head {
+    background: #dbe3e7;
+    border-left: 1px solid #c5d2d8;
+    border-radius: 3px 3px 0 0;
+    border-right: 1px solid #c5d2d8;
+    border-top: 1px solid #c5d2d8;
+    padding: 12px 12px 24px;
+}
+.getStarted {
+    margin-top: 30px;
+}
+.getStarted input[type="email"] {
+    border: medium none;
+    background: transparent;
+    padding: 5px;
+    border-bottom: 1px solid #efefef;
+    color: #3e3e3e;
+    width: 100%;
+}
+#navbar li {
+    border-radius: 5px;
+    padding: 10px;
+}
+header .logo {
+    margin-top: 10px;
+}
+.homeOverlay {
+    background: rgba(255,255,255, 0.5);
+}
+
+/**************** Deploy Page ******************/
+footer {
+    background: #E9F5FF;
+}

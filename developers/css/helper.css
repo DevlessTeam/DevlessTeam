@@ -1,0 +1,82 @@
+/* HELPERS
+********************************************/
+
+/* Typo
+=========================*/
+
+
+/* Alignment 
+=========================*/
+
+
+/* z-index
+=========================*/
+
+/* Background properties 
+=========================*/ /* very light gray */ /* light gray */ /* gray */ /* medium dark gray */ /* dark gray */ /* dark blue */ /* light blue */ /* green */ /* orange */ /* dark orange */ /* purple */ /* very light gray */ /* light gray */ /* gray */ /* medium dark gray */ /* dark gray */ /* dark blue */ /* light blue */ /* green */ /* orange */ /* dark orange */ /* purple */ /* very light gray */ /* light gray */ /* gray */ /* medium dark gray */ /* dark gray */ /* dark blue */ /* light blue */ /* green */ /* orange */ /* dark orange */ /* purple */ /* very light gray */ /* light gray */ /* gray */ /* medium dark gray */ /* dark gray */ /* dark blue */ /* light blue */ /* green */ /* orange */ /* dark orange */ /* purple */ /* very light gray */ /* light gray */ /* gray */ /* medium dark gray */ /* dark gray */ /* dark blue */ /* light blue */ /* green */ /* orange */ /* dark orange */ /* purple */
+
+
+
+
+/* Opacity
+=========================*/
+
+/* Clearing
+=========================*/
+
+/* Padding
+=========================*/
+
+.pd-0  { padding: 0; }
+
+
+/* Margin
+=========================*/
+.mr-t-20  { margin-top: 20px; }
+.mr-t-50  { margin-top: 50px; }
+
+/* Width
+=========================*/
+
+/* Max width */
+
+
+/* Square
+=========================*/
+
+
+/* Height
+=========================*/
+
+
+/* Radius
+=========================*/
+
+/* Icon blocks
+=========================*/
+
+
+/* Border
+=========================*/
+
+/* Forms
+=========================*/
+
+/* Other utilities
+=========================*/
+.overflow-hidden                 { overflow:hidden;}
+
+
+/* Animation
+=========================*/
+a {
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+
+
+/* Loader CSS
+=========================*/
