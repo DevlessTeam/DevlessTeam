@@ -21,6 +21,18 @@
 		p a {
 			color: white;
 		}
+		.modal{
+			background-color: rgba(52,191,73,0.7);
+		}
+		.modal-title{
+			font-family: "Source Sans Pro";
+			letter-spacing: 0.1em;
+			text-transform: capitalize;;
+			font-size: 32px;
+		}
+		.close-modal{
+			color: #fff;
+		}
 	</style>
 	<link rel="icon" type="image/png" href="http://devless.io/img/favicon.png">
 	<!-- //custom-theme -->
@@ -37,6 +49,70 @@
 </head>
 
 <body>
+	<!-- register modal -->
+	<!-- modal --> 
+	<div class="modal fade" id="register" tabindex="-1" role="dialog">
+		<button type="button" class="close close-modal"><i class="fa fa-times"></i></button>
+		
+ 		 <div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title">Come join us have fun </h2>
+				</div>
+				<div class="modal-body">
+					<form id="register" action="">
+						<div class="form-group">
+							<input class="form-control " type="text" name="name" placeholder="Enter your name * " required="true">			
+						</div>
+						<div class="form-group">
+									<input class="form-control" type="text" name="email" placeholder="Enter your email * " required="true">
+						</div>
+								
+						<div class="form-group">
+							<input class="form-control" type="text" name="phone_number" placeholder="Enter your mobile number * " required="true">
+						</div>
+
+						<div class="form-group">
+							<select class="form-control">
+								<option disabled>Select your Title *</option>
+								<option>Student</option>
+								<option>Worker</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="team">Are You A Team</label>
+						</div>
+						<div class="form-group">
+							Yes
+							<input type="radio" name="team" >
+							No
+							<input type="radio" name="team" id="team">
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="text" name="email" placeholder="Enter member's name " autocomplete="off">	
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="text" name="email" placeholder="Enter member's name " autocomplete="off">	
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="text" name="email" placeholder="Enter member's name " autocomplete="off">	
+						</div>
+						<div class="form-group">
+							<textarea name="message" class="form-control"  rows="6" placeholder="Have anything to say"></textarea>
+						</div>
+						<div class="modal-footer">
+							<div class="form-group">
+								<button class="btn btn-submit btn-success">Submit</button>
+							</div>
+			
+						</div>
+						</div>	
+					</form>		
+				</div> 
+			</div> 
+		</div>	 
+	</div><!-- /.modal -->
+
 	<!-- banner -->
 	<div class="main_section_agile" id="top">
 		<div class="agileits_w3layouts_banner_nav">
@@ -53,7 +129,7 @@
 
 				</div>
 				<ul class="agile_forms">
-					<li><a class="active" href="#" ><i class="fa fa-sign-in" aria-hidden="true"></i> Register Here </a>						</li>
+					<li><a class="active register" href="#" ><i class="fa fa-sign-in" aria-hidden="true"></i> Register Here </a>						</li>
 				</ul>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -81,7 +157,7 @@
 								<h3>Develop an idea quickly.</h3>
 								<p>Do you have a brilliant idea but you just don’t know where to start?  DevLess hackathon is giving you the opportunity to make your idea a reality in just two days.</p>
 								<div class="more">
-									<a href="#" class="hvr-shutter-in-vertical">Register Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+									<a href="#" class="hvr-shutter-in-vertical register">Register Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 								</div>
 							</div>
 						</div>
@@ -96,7 +172,7 @@
 								<h3>Automate your processes. </h3>
 								<p>Are you business operations clumsy? You would like to automate the processes? Come to the DevLess hackathon and meet bring minds that help you out with your problems.</p>
 								<div class="more">
-									<a href="#" class="hvr-shutter-in-vertical">Let's work together <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+									<a href="#" class="hvr-shutter-in-vertical register">Let's work together <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 								</div>
 							</div>
 						</div>
@@ -110,7 +186,7 @@
 								<h3>Find a technical co-founder.</h3>
 								<p>Come and that one person you’ve been looking for with the necessary skills to to develop your ideas and bring them to life. </p>
 								<div class="more">
-									<a href="#" class="hvr-shutter-in-vertical">Register Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+									<a href="#" class="hvr-shutter-in-vertical register">Register Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 								</div>
 							</div>
 						</div>
@@ -124,7 +200,7 @@
 								<h3>Rapid prototype a weekend hobby. </h3>
 								<p>DevLess hackathon is giving you the opportunity to test your ideas and to help you draw a conclusion on its feasibility.</p>
 								<div class="more">
-									<a href="#" class="hvr-shutter-in-vertical">Register Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+									<a href="#" class="hvr-shutter-in-vertical register">Register Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 								</div>
 							</div>
 
@@ -164,7 +240,7 @@
 		</div>
 		<div class="col-md-6 medile_agile_its_green">
 			<div class="more click">
-				<a href="#" class="hvr-shutter-in-vertical">Click Here to Register <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+				<a href="#" class="hvr-shutter-in-vertical register">Click Here to Register <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 			</div>
 		</div>
 		<div class="clearfix"> </div>
@@ -463,6 +539,16 @@
 		});
 	</script>
 	<!-- //here ends scrolling icon -->
+
+	<!-- script for toggling modal -->
+	<script type="text/javascript">
+		$('.register').click( function(){
+			$("#register").modal('toggle');
+		});
+		$('.close-modal').click( function(){
+			$("#register").modal('toggle');
+		});	
+	</script>
 </body>
 
 </html>
