@@ -24,15 +24,20 @@
 		.modal{
 			background-color: rgba(52,191,73,0.7);
 		}
-		.modal-title{
+		.modal-title, .get-in-touch{
 			font-family: "Source Sans Pro";
 			letter-spacing: 0.1em;
 			text-transform: capitalize;;
 			font-size: 32px;
 		}
+		.get-in-touch{
+			font-size: 18px;
+			color: crimson;
+		}
 		.close-modal{
 			color: #fff;
 		}
+		
 	</style>
 	<link rel="icon" type="image/png" href="http://devless.io/img/favicon.png">
 	<!-- //custom-theme -->
@@ -46,6 +51,8 @@
 	<link href="css/font-awesome.css" rel="stylesheet">
 	<!-- //font-awesome-icons -->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,900" rel="stylesheet">
+
+	 
 </head>
 
 <body>
@@ -59,50 +66,57 @@
 				<div class="modal-header">
 					<h2 class="modal-title">Come join us have fun </h2>
 				</div>
+				
 				<div class="modal-body">
-					<form id="register" action="">
+					<form id="register"  class="dv-add-oneto:hackathon:register">
 						<div class="form-group">
-							<input class="form-control " type="text" name="name" placeholder="Enter your name * " required="true">			
+							<input class="form-control " type="text" name="name" placeholder="Enter your name * " required="true" autocomplete="off">			
 						</div>
 						<div class="form-group">
-									<input class="form-control" type="text" name="email" placeholder="Enter your email * " required="true">
+							<input class="form-control" type="text" name="email" placeholder="Enter your email * " required="true" autocomplete="off">
 						</div>
 								
 						<div class="form-group">
-							<input class="form-control" type="text" name="phone_number" placeholder="Enter your mobile number * " required="true">
+							<input class="form-control" type="text" name="phone_number" placeholder="Enter your mobile number * " required="true" autocomplete="off">
 						</div>
 
 						<div class="form-group">
-							<select class="form-control">
-								<option disabled>Select your Title *</option>
-								<option>Student</option>
-								<option>Worker</option>
+							<select name="title" class="form-control">
+								<option >-- Select your Title * --</option>
+								<option  value="student">Student</option>
+								<option  value="worker">Worker</option>
 							</select>
 						</div>
 						<div class="form-group">
-							<label for="team">Are You A Team</label>
+							<select name="team" class="form-control">
+								<option >-- Are You A Team * --</option>
+								<option  value="yes">Yes</option>
+								<option  value="no">No</option>
+							</select>
+						</div>
+						
+						<div class="form-group">
+							<input class="form-control" type="text" name="member_one" placeholder="Enter member's name " autocomplete="off">	
 						</div>
 						<div class="form-group">
-							Yes
-							<input type="radio" name="team" >
-							No
-							<input type="radio" name="team" id="team">
+							<input class="form-control" type="text" name="member_two" placeholder="Enter member's name " autocomplete="off">	
 						</div>
 						<div class="form-group">
-							<input class="form-control" type="text" name="email" placeholder="Enter member's name " autocomplete="off">	
+							<input class="form-control" type="text" name="member_three" placeholder="Enter member's name " autocomplete="off">	
 						</div>
 						<div class="form-group">
-							<input class="form-control" type="text" name="email" placeholder="Enter member's name " autocomplete="off">	
+							<textarea name="message" class="form-control" rows="6" placeholder="Have anything to say"></textarea>
 						</div>
-						<div class="form-group">
-							<input class="form-control" type="text" name="email" placeholder="Enter member's name " autocomplete="off">	
-						</div>
-						<div class="form-group">
-							<textarea name="message" class="form-control"  rows="6" placeholder="Have anything to say"></textarea>
-						</div>
-						<div class="modal-footer">
+							<div class="row">
+								<div class="col-sm-offset-3 col-sm-6 col-xs-12">
+									<div class="dv-notify-success">
+										<h2 class="get-in-touch">Yay!! We will get in touch</h2>
+									</div>		
+								</div>
+							</div>
+						<div class="modal-footer">	
 							<div class="form-group">
-								<button class="btn btn-submit btn-success">Submit</button>
+								<button type="Submit" class="btn btn-submit btn-success">Submit</button>
 							</div>
 			
 						</div>
@@ -112,12 +126,12 @@
 			</div> 
 		</div>	 
 	</div><!-- /.modal -->
-
+	
 	<!-- banner -->
 	<div class="main_section_agile" id="top">
 		<div class="agileits_w3layouts_banner_nav">
 
-			<nav class="navbar navbar-default">
+			<nav class="container navbar navbar-default">
 				<div class="navbar-header navbar-left">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span>	
@@ -145,7 +159,7 @@
 		</div>
 	</div>
 	<!-- banner -->
-	<div class="banner-silder">
+	<!-- <div class="banner-silder">
 		<div id="JiSlider" class="jislider">
 			<ul>
 				<li>
@@ -210,9 +224,13 @@
 
 			</ul>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- //banner -->
+
+	<div>
+		<img src="images/hack_design.jpg" alt="" style="width: 100%; height: auto">
+	</div>
 	
 	<!-- about -->
 	<div class="inner_main_agile_section">
@@ -236,7 +254,7 @@
 	<!-- //about -->
 	<div class="medile_agile_its_section">
 		<div class="col-md-6 medile_agile_its_blue">
-			<h4>Hackathons for non-developers first! <i class="fa fa-hand-o-right" aria-hidden="true"></i> </h4>
+			<h4>For Anyone Who Want To Solve Problems! <i class="fa fa-hand-o-right" aria-hidden="true"></i> </h4>
 		</div>
 		<div class="col-md-6 medile_agile_its_green">
 			<div class="more click">
@@ -298,9 +316,8 @@
 	<!-- //services -->
 
 	<!-- banner-bottom -->
-	<div class="banner-bottom">
+	<!-- <div class="banner-bottom">
 		<div class="container">
-		<!---728x90 -->
 			<h6>Our Partners</h6>
 			<h2> <span class="fixed_w3">We</span>  are in company of <span class="fixed_w3">great Partners</span> </h2>
 			<div class="agileits_banner_bottom_grids">
@@ -383,7 +400,7 @@
 			</div>
 		</div>
 	</div>
-
+ -->
 	<!-- footer -->
 	<div class="footer">
 		<div class="container">
@@ -420,8 +437,8 @@
 	<!-- js -->
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 	<!-- //js -->
-	<script src="js/JiSlider.js"></script>
-	<script>
+	<!-- <script src="js/JiSlider.js"></script> -->
+	<!-- <script>
 		$(window).load(function () {
 			$('#JiSlider').JiSlider({
 				color: '#fff',
@@ -429,7 +446,7 @@
 				reverse: true
 			}).addClass('ff')
 		})
-	</script>
+	</script> -->
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-36251023-1']);
@@ -549,6 +566,12 @@
 			$("#register").modal('toggle');
 		});	
 	</script>
+
+	<!-- script to connect to devless -->
+	 <script src="http://dventerprise.herokuapp.com/js/devless-sdk.js" class="devless-connection" devless-con-token="b0519f24abdd90d6cfd244f5e58bef5c"></script>
+
+	
+
 </body>
 
 </html>
